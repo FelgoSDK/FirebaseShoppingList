@@ -32,20 +32,20 @@ Item {
     FirebaseConfig {
         id: fbConfig
 
-        // TODO: update the project ID
-        projectId: "<Add your Project ID, from project_info | project_number, e.g., 82701038584 or shoppinglist-vplay>"
-        // TODO: update the database URL
-        databaseUrl: "<Add your Database URL, from project_info | firebase_url, e.g.,: https://shoppinglist-vplay.firebaseio.com>"
+        // TODO: update the project ID, from project_info | project_number
+        projectId: "shoppinglist-v-play"
+        // TODO: update the database URL, from project_info | firebase_url
+        databaseUrl: "https://shoppinglist-v-play.firebaseio.com"
 
-        // TODO: update the API keys for Android and/or iOS
+        // TODO: update the API keys for Android and/or iOS, from client | api_key | current_key
         apiKey: Qt.platform.os === "android"
-                ? "<Add your Android API key, from client | api_key | current_key>"
-                : "<Add your iOS API key>"
+                ? "AIzaSyDD3p4fdljhaeTu91XCJBOSs3cAQquS8Cc"
+                : "AIzaSyACSCxsBrOa4XKl5pGc0Vb5Ps4Rw21_o4o"
 
-        // TODO: update the application ID for Android and/or iOS
+        // TODO: update the application ID for Android and/or iOS, from client | client_info | mobilesdk_app_id
         applicationId: Qt.platform.os === "android"
-                       ? "<Add your Android Application ID, from client | client_info | mobilesdk_app_id>"
-                       : "<Add your iOS Application ID>"
+                       ? "1:251103824113:android:a28d26d18b381c88"
+                       : "1:251103824113:ios:a28d26d18b381c88"
 
     }
 
