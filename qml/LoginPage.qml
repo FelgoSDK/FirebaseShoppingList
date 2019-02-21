@@ -1,4 +1,4 @@
-import VPlayApps 1.0
+import Felgo 3.0
 import QtQuick 2.5
 
 // The login page is kept simple to focus on the main functionality.

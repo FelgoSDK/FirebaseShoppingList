@@ -1,6 +1,5 @@
-import VPlayApps 1.0
+import Felgo 3.0
 import QtQuick 2.5
-import VPlayPlugins 1.0
 
 // The data model manages the interaction with the Google Firebase Realtime Database.
 // This includes user authentication as well as managing items in the cloud database.

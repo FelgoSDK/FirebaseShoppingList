@@ -1,7 +1,7 @@
-import VPlayApps 1.0
+import Felgo 3.0
 import QtQuick 2.5
 
-// The master page is based on the master-detail-template of V-Play.
+// The master page is based on the master-detail-template of Felgo.
 // In this app, it shows a list of shopping items.
 // It lets the user add new items, delete items or tap on them to
 // navigate to the DetailPage.

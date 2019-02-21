@@ -25,7 +25,7 @@ dependencies {
     compile "com.android.support:support-core-utils:27.1.0"
     compile "com.android.support:appcompat-v7:27.1.0"
 
-    compile 'net.vplay.plugins:plugin-firebase:2.+'
+    compile 'net.vplay.plugins:plugin-firebase:3.+'
 }
 
 android {

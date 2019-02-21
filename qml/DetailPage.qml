@@ -1,7 +1,7 @@
 import QtQuick 2.5
 import QtQuick.Controls 2.3
-//import VPlayApps AFTER QtQuick.Controls, as both contain a "Page" type
-import VPlayApps 1.0
+//import Felgo AFTER QtQuick.Controls, as both contain a "Page" type
+import Felgo 3.0
 
 // This page shows the details of a single shopping items.
 // It allows the user to edit the shopping item text.
